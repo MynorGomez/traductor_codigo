@@ -1,0 +1,9 @@
+Palabra              | Traducción          | Funcionalidad                           
+-------------------------------------------------------------------------------------
+asm                  | ensamblador          | inserta código ensamblador en C++      
+auto                 | automático          | deduce automáticamente el tipo de una variable
+bool                 | booleano             | tipo de dato verdadero/falso            
+break                | romper               | termina un bucle o switch               
+case                 | caso                 | define un caso en un switch             
+false                | falso                | Valor booleano falso.                   
+for                  | para                 | bucle controlado                        
