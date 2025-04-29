@@ -1,3 +1,17 @@
+/*	
+*	Tarea grupal del curso Programación I
+*	
+*	Universidad Mariano Gálvez de Guatemala
+*	Facultad de Ingeniería en Sistemas
+*	
+*	Autores:
+*	Josseline Adriana Catalán Juárez
+*	José David Mazariegos Ortega
+*	Mynor Alexander Gómez Pedro
+*	Erick Manuel Fuentes Miranda
+*	Francisco Antonio De León Natareno
+*/
+//la sube David 
 #include <iostream>
 #include <fstream>
 #include <unordered_map>
@@ -43,7 +57,7 @@ unordered_map<string, string> cargar_diccionario(const string& archivo_nombre) {
     archivo.close();
     return diccionario;
 }
-
+//La sube Josseline
 // Función para traducir el texto multilínea
 void traducir_codigo(const unordered_map<string, string>& diccionario) {
     cout << "Ingrese el código C++ a traducir (finalice con una línea vacía):" << endl;
@@ -98,6 +112,7 @@ void traducir_codigo(const unordered_map<string, string>& diccionario) {
 
 // Función principal
 void traductor() {
+    system("color fd"); // Cambiar el color de la consola a verde
     system("cls"); // Limpiar la consola al iniciar
     // Configurar la consola para UTF-8
 #ifdef _WIN32
@@ -127,4 +142,5 @@ void traductor() {
     } while (opcion == 's');
 
     cout << "Saliendo del traductor...\n";
+    system("color 0A"); // Cambiar el color de la consola a verde
 }

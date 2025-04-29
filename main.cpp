@@ -1,3 +1,16 @@
+/*	
+*	Tarea grupal del curso Programación I
+*	
+*	Universidad Mariano Gálvez de Guatemala
+*	Facultad de Ingeniería en Sistemas
+*	
+*	Autores:
+*	Josseline Adriana Catalán Juárez
+*	José David Mazariegos Ortega
+*	Mynor Alexander Gómez Pedro
+*	Erick Manuel Fuentes Miranda
+*	Francisco Antonio De León Natareno
+*/
 #include "traductor.cpp"
 #include "diccionario.cpp"
 #include <iostream>
@@ -8,6 +21,7 @@
 using namespace std;
 
 int main() {
+    system("color 0A"); // Cambiar el color de la consola
     // Configurar la consola para UTF-8
 #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8); // Configurar salida en UTF-8

@@ -1,3 +1,17 @@
+/*	
+*	Tarea grupal del curso Programación I
+*	
+*	Universidad Mariano Gálvez de Guatemala
+*	Facultad de Ingeniería en Sistemas
+*	
+*	Autores:
+*	Josseline Adriana Catalán Juárez
+*	José David Mazariegos Ortega
+*	Mynor Alexander Gómez Pedro
+*	Erick Manuel Fuentes Miranda
+*	Francisco Antonio De León Natareno
+*/
+//La sube Mynor
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -161,7 +175,7 @@ void agregar(const string& archivo_nombre, vector<Palabra>& palabras) {
     system("pause");
     system("cls");
 }
-
+// La sube Erick
 // Función para actualizar una palabra existente
 void actualizar(const string& archivo_nombre, vector<Palabra>& palabras) {
     string palabra;
@@ -211,6 +225,7 @@ void eliminar(const string& archivo_nombre, vector<Palabra>& palabras) {
 // Función principal
 void diccionario() {
     system("cls"); // Limpiar la consola al iniciar
+    system("color f3"); // Cambiar el color de la consola a verde
     // Configurar la consola para UTF-8
 #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8);
@@ -268,4 +283,5 @@ void diccionario() {
     } while (opcion != 5);
     system("pause");
     system("cls");
+    system("color 0A");
 }
